@@ -1,2 +1,5 @@
 # ERC20-Coin
-This servers as a ERC20 token created using the "EIP-20: Token Standard"  
+This is a ERC20 token created using the "EIP-20: Token Standard"  
+
+## License
+MIT License
