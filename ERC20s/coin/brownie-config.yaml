@@ -1,0 +1,12 @@
+#this is saying that any time openzepplin is used its referring OpenZepplein/openzepplin-contracts@3.4.0 
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.4.0
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
+
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
